@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1447040612 source:c:\users\family\desktop\console\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1449854178 source:c:\users\family\desktop\console workspace\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+

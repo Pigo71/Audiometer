@@ -1,0 +1,11 @@
+x = 0:(1/40000):(1-(1/40000));
+y = sin(2*pi*x);
+y = y + 1;
+y = y * (255/2);
+y = round(y);
+copyfile('SIN_base.asm', 'Source/SIN.asm');
+file = fopen('Source/SIN.asm', 'a');
+fprintf(file, '%u, ', y(1:(end-1)));
+fprintf(file, '%u', y(end));
+fprintf(file, '\n');
+fclose(file);

@@ -1,0 +1,63 @@
+// set frequency to 1000, intensity to 10, record
+press button 1 1
+press button 4 1
+press button 6 2
+press button 8 5
+press button 10 1
+turn rotary 1 8
+press button 12 1
+
+// set frequency to 2000, intensity to 20, record
+press button 9 1
+press button 1 1
+press button 10 1
+turn rotary 1 12
+press button 12 1
+
+// set frequency to 3000, intensity to 30, record
+press button 9 1
+press button 1 1
+press button 10 1
+turn rotary 1 16
+press button 12 1
+
+// set frequency to 4000, intensity to 40, record
+press button 9 1
+press button 1 1
+press button 10 1
+turn rotary 1 20
+press button 12 1
+
+// set frequency to 5000, intensity to 50, record
+press button 9 1
+press button 1 1
+press button 10 1
+turn rotary 1 24
+press button 12 1
+
+// set frequency to 6000, intensity to 60, record
+press button 9 1
+press button 1 1
+press button 10 1
+turn rotary 1 28
+press button 12 1
+
+// hold SW11 for 9,999 ms, go into STATE3
+hold button 11
+wait 9999
+release button 11
+
+// display 5 samples, then blank, 2 seconds each
+wait 2000
+press button 12 1
+wait 2000
+press button 12 1
+wait 2000
+press button 12 1
+wait 2000
+press button 12 1
+wait 2000
+press button 12 1
+wait 2000
+
+// retrieve samples
